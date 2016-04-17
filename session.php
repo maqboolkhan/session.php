@@ -30,6 +30,11 @@ class Session
         return $_SESSION[$prop];
     }
 
+    public function has($key)
+    {
+        return isset($_SESSION[$key]);
+    }
+
     public function remove($key)
     {
         unset($_SESSION[$key]);
