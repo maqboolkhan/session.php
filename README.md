@@ -1,7 +1,7 @@
 session.php
 ===========
 
-**Important**: This is just simple PHP class for session management it does not
+**Important**: This is just a simple PHP class for session management it does not
 provide secure or encrypted session and any thing alike its just a wrapper which
 i code because
 
