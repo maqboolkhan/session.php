@@ -56,6 +56,13 @@ echo $mysession->name;
 echo $mysession->age;
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+Remove keys:
+===========
+
+~~~php
+$mmysession->remove('name')
+~~~~~~~~~~~~~~~~~~~~~~~~
+
 Protected fields:
 =================
 
